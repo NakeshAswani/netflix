@@ -1,0 +1,93 @@
+@media only screen and (min-width: 200px) and (max-width: 575px){
+    .navButtons button article{
+        display: none;
+    }
+    .bannerInner{
+        width: 100%;
+        padding: 50px 30px 50px 30px;
+    }
+    .bannerInner h1{
+        font-size: 33px;
+    }
+    .bannerInner h2{
+        font-size: 18px;
+    }
+    .bannerInner h4{
+        font-size: 21px;
+    }
+    .bannerInner form{
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .bannerInner form input{
+        width: 100%;
+    }
+    .bannerInner form button{
+        width: 50%;
+        font-size: 20px;
+    }
+    .enjoyInner{
+        padding: 50px 20px 50px 20px;
+        flex-direction: column;
+    }
+    .enjoyInner h1{
+        font-size: 33px;
+        text-align: center;
+    }
+    .enjoyInner h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .downloadInner{
+        flex-direction: column-reverse;
+    }
+    .mobileOver{
+        width: 80%;
+        padding: 0px 10px;
+    }
+    .kidsInner{
+        flex-direction: column-reverse;
+    }
+    .kidsInner .enjoyContent h1{
+        font-size: 35px;
+    }
+    .kidsInner .enjoyContent h2{
+        font-size: 19px;
+    }
+    .faqInner{
+        padding: 50px 20px;
+    }
+    .faqInner h1{
+        font-size: 35px;
+    }
+    .faqInner details summary{
+        font-size: 18px;
+    }
+    .faqInner>h4{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .faqInner>form{
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .faqInner>form>input{
+        width: 100%;
+    }
+    .faqInner>form>button{
+        width: 50%;
+        font-size: 20px;
+    }
+    .footerInner{
+        padding: 60px 20px;
+    }
+    .footerMenu{
+        flex-direction: column;
+        gap: 0px;
+    }
+}

@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+article{
+    font-weight: 400;
+}
+h1,h2,h3{
+    font-weight: 700;
+}
+h4,h5,h6{
+    font-weight: 500;
+}
+:root{
+    --color1: #e50914;
+}
+section{
+    border-bottom: 8px solid #232323;
+}
+#banner{
+    background: url("images/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_small.jpg") center;
+    background-size: cover;
+}
+.bannerOver{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+header{
+    width: 100%;
+}
+.headerInner{
+    max-width: 1100px;
+    margin: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerInner figure{
+    width: 180px;
+}
+.headerInner figure img{
+    width: 100%;
+    filter: contrast(1.5);
+}
+.navButtons button{
+    padding: 8px 15px;
+    font-size: 15px;
+    margin-right: 20px;
+    color: white;
+    background-color: rgba(204, 204, 204, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+.navButtons button i{
+    margin: 0px 3px;
+}
+.navButtons button:first-child{
+    position: relative;
+}
+.LanMenu{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    transform-origin: top;
+    transform: scale(1,0);
+    transition: 0.1s;
+}
+.LanMenu li{
+    padding: 10px;
+}
+.navButtons button article{
+    display: inline-block;
+}
+.navButtons button:first-child:hover .LanMenu{
+    transform: scale(1,1);
+}
+.navButtons button:last-child{
+    background-color: var(--color1);
+    border: none;
+}
+.bannerInner{
+    width: 80%;
+    margin: auto;
+    padding: 200px 0px 190px 0px;
+    text-align: center;
+    color: white;
+}
+.bannerInner h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.bannerInner h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.bannerInner h4, .faqInner>h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.bannerInner form, .faqInner>form{
+    width: 53%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannerInner form input, .faqInner>form>input{
+    width: 64%;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background-color: rgba(20, 20, 20, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannerInner form input::placeholder, .faqInner>form>input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+.bannerInner form button, .faqInner>form>button{
+    width: 35%;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    background-color: var(--color1);
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+}
+.enjoy{
+    width: 100%;
+    background-color: black;
+}
+.enjoyInner{
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 0px 50px 0px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enjoyContent{
+    flex-basis: 49%;
+}
+.enjoyContent h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.enjoyContent h2{
+    font-size: 26px;
+    font-weight: 400;
+}
+.enjoyInner figure{
+    flex-basis: 49%;
+    position: relative;
+    z-index: 9;
+}
+.enjoyInner figure img{
+    width: 100%;
+}
+.enjoyInner figure video{
+    width: 72.5%;
+    position: absolute;
+    top: 21%;
+    left: 48.8%;
+    transform: translateX(-48.8%);
+    z-index: -9;
+}
+.download>img{
+    width: 100%;
+}
+.mobileOver{
+    width: 55%;
+    padding: 10px;
+    margin: auto;
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mobileOver img:first-child{
+    width: 50px;
+}
+.mobileOver article{
+    width: 50%;
+    font-size: 17px;
+}
+.mobileOver article span{
+    font-size: 15px;
+    color: #0071eb;
+}
+.mobileOver img:last-child{
+    width: 50px;
+}
+.videoDevices figure video{
+    width: 62%;
+    position: absolute;
+    top: 12%;
+    left: 48.8%;
+    transform: translateX(-48.8%);
+    z-index: -9;
+}
+.kidsInner .enjoyContent h1{
+    font-size: 53px;
+}
+.faq{
+    width: 100%;
+    background-color: black;
+}
+.faqInner{
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 0px;
+    color: white;
+}
+.faqInner h1{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.faqInner details{
+    width: 100%;
+    background-color: #2d2d2d;
+    margin-bottom: 10px;
+}
+.faqInner details summary{
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faqInner details summary i{
+    font-size: 40px;
+}
+.faqInner details article{
+    border-top: 1px solid black;
+    padding: 20px;
+    font-size: 27px;
+}
+.faqInner details:hover summary i{
+    transform: rotate(45deg);
+}
+.faqInner>h4{
+    text-align: center;
+    margin-top: 60px;
+}
+footer{
+    width: 100%;
+    background-color: black;
+}
+.footerInner{
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 0px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footerInner h5{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.footerInner h5 a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+}
+.footerMenu{
+    display: flex;
+    gap: 230px;
+    margin-bottom: 25px;
+}
+.footerMenu ul li{
+    font-size: 15px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.footerInner button{
+    padding: 8px 15px;
+    font-size: 15px;
+    margin-right: 20px;
+    color: white;
+    background-color: rgba(204, 204, 204, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.footerInner button:hover .LanMenu{
+    transform: scale(1,1);
+}
+.footerInner article{
+    font-size: 14px;
+}
